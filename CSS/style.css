@@ -429,3 +429,9 @@
       .skill-bar-wrap { margin: 0 1rem; }
       .about-text { font-size: 1.2rem; }
     }
+    @media (max-width: 576px) {
+      .navbar-nav { display: none !important; }
+      .hero-name { font-size: clamp(3rem, 18vw, 10rem); }
+      .hero-number { display: none; }
+      .project-img { height: 200px; }
+    }
